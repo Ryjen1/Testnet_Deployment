@@ -4,4 +4,4 @@ out = "out"
 libs = ["lib"]
 
 [profile.rpc_endpoints]
-monad = "[$BASE_RPC_URL]"
+monad = "${BASE_RPC_URL}".
